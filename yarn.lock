@@ -4469,7 +4469,7 @@ mustache@^2.3.0:
   resolved "https://registry.npm.taobao.org/mustache/download/mustache-2.3.2.tgz#a6d4d9c3f91d13359ab889a812954f9230a3d0c5"
   integrity sha1-ptTZw/kdEzWauImoEpVPkjCj0MU=
 
-mysql2@^1.6.1:
+mysql2@^1.7.0:
   version "1.7.0"
   resolved "https://registry.npm.taobao.org/mysql2/download/mysql2-1.7.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmysql2%2Fdownload%2Fmysql2-1.7.0.tgz#2fbf314da016a61d038ffcd57a2a0aa3b7b8eacc"
   integrity sha1-L78xTaAWph0Dj/zVeioKo7e46sw=
