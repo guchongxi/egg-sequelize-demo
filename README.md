@@ -2,7 +2,7 @@
 
 在 Egg 中使用 sequelize 示例项目
 
-文章参考：
+[在 Egg 中使用 sequelize 操作 mysql](https://juejin.im/post/5da04796f265da5b915cc03d) 附属源码
 
 ## 开发
 
