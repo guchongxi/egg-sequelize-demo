@@ -14,6 +14,7 @@ class Apps extends Service {
       }, {
         model: this.ctx.model.Groups,
         as: 'groups',
+        attributes: ['name', 'desc'],
       }],
     });
   }
