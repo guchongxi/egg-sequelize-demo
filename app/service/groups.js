@@ -8,6 +8,10 @@ class Groups extends Service {
       include: [{
         model: this.ctx.model.Apps,
         as: 'apps',
+        include: [{
+          model: this.ctx.model.Users,
+          as: 'user'
+        }]
       }],
     });
   }
