@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - data-mysql:/var/lib/mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_DATABASE: 'test-database'
+    ports:
+      - '3306:3306'
+    restart: unless-stopped
+volumes:
+  data-mysql:
